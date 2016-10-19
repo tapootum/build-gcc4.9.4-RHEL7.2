@@ -1,6 +1,6 @@
 #Build gcc 4.9.4 RHEL 7.2
 
-export  GCC_VER=4.9.2
+export  GCC_VER=4.9.4
 yum install -y libmpc-devel mpfr-devel gmp-devel
 yum install -y  wget tar bzip2 gzip gcc openssh-server zlib-devel && \
     (yum groupinstall -y 'Development Tools' || \
